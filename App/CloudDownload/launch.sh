@@ -1,6 +1,6 @@
 #!/bin/sh
 echo $0 $*
-LD_PRELOAD=/mnt/SDCARD/miyoo/lib/libpadsp.so /mnt/SDCARD/.tmp_update/bin/infoPanel -t "Downloading saves" -m "Your saves are being downloaded to your device!" --auto &
+LD_PRELOAD=/mnt/SDCARD/miyoo/lib/libpadsp.so /mnt/SDCARD/.tmp_update/bin/infoPanel -t "Downloading saves" -m "Your saves are being downloaded to your device!" --auto
 
 cd $(dirname "$0")
 
