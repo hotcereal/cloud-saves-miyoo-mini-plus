@@ -8,7 +8,7 @@ Utilizing rclone, upload and download saves to and from your Miyoo Mini Plus and
 - [OnionOS 4.2 beta](https://github.com/OnionUI/Onion/releases/tag/dev-v4.2.0-beta) (at least) must be installed for this to function.
 - SSH app on Miyoo Mini+
 - Wifi enabled
-- The Linux ARM64 version of rclone, available [here](https://downloads.rclone.org/v1.62.2/rclone-v1.62.2-osx-arm64.zip)
+- The Linux ARM64 version of rclone, available [here](https://downloads.rclone.org/v1.66.0/rclone-v1.66.0-linux-arm64.zip)
 
 ## Installation
 
