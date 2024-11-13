@@ -8,14 +8,14 @@ Utilizing rclone, upload and download saves to and from your Miyoo Mini Plus and
 - [OnionOS 4.2 beta](https://github.com/OnionUI/Onion/releases/tag/dev-v4.2.0-beta) (at least) must be installed for this to function.
 - SSH app on Miyoo Mini+
 - Wifi enabled
-- The Linux ARM64 version of rclone, available [here](https://downloads.rclone.org/v1.66.0/rclone-v1.66.0-linux-arm64.zip)
+- The Linux ARMv7 32-bit version of rclone, available [here](https://downloads.rclone.org/v1.68.1/rclone-v1.68.1-linux-arm-v7.zip)
 
 ## Installation
 
 0. If you already have an `rclone.conf` file from another installation, you can throw it in the root of your SD card and skip steps 3 and 4. Be sure to open the file in a text editor and rename whichever remote you want to use from `[remote name]` to `[cloud]`.
 
 1. Drag the `App` folder from this repo to the root of your SD card.
-2. Drag the `rclone` file with no extension from the rclone for [Linux ARM64 download](https://downloads.rclone.org/v1.66.0/rclone-v1.66.0-linux-arm64.zip) also to the root of your SD card.
+2. Drag the `rclone` file with no extension from the rclone for [Linux ARMv7 32-bit download](https://downloads.rclone.org/v1.68.1/rclone-v1.68.1-linux-arm-v7.zip) also to the root of your SD card.
 3. SSH into your Miyoo Mini+. (Alternatively, you could use the Terminal app on the MM+ itself, but that's the sadist difficulty setting.)
 4. Run `/mnt/SDCARD/rclone config` and name your remote `cloud`. Follow the steps. When it asks if your installation is headless, say yes. 
 
